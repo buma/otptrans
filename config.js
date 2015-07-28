@@ -4,8 +4,7 @@ window.OTP_config = {
   osmMapKey: 'conveyal.ikck6888', // temporary -- do not use in production, provide your own
   aerialMapKey: 'conveyal.map-a3mk3jug', // unset
 
-  /*otpApi: 'http://192.168.59.103:8080/otp/routers/',*/
-  otpApi: 'https://otp-test.nysdot.conveyal.com/otp/routers/',
+  otpApi: 'https://otp.511ny.org/otp/routers/',
   esriApi: 'https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/',
 
   reverseGeocode: true,
@@ -32,8 +31,7 @@ window.OTP_config = {
         //and add it in index.html after other localizations
         //It will be used automatically when UI is switched to this locale
         datepicker_locale_short: "de",
-        //Currently unused:
-        format         : "D. MM. YYYY H:mm", //momentjs
+        format         : "D. MMM LT", //momentjs
         date_format    : "DD.MM.YYYY", //momentjs
         time_format    : "H:mm", //prej je blo H:i momentjs
     },
@@ -56,8 +54,7 @@ window.OTP_config = {
         //and add it in index.html after other localizations
         //It will be used automatically when UI is switched to this locale
         datepicker_locale_short: "fr",
-        //currently unused
-        format         : "DD.MM.YY [à] H:mm", //moment.js
+        format         : "D MMM LT", //moment.js
         date_format    : "DD/MM/YYYY", //momentjs 
         time_format    : "HH:mm", //momentjs
     },
@@ -80,8 +77,7 @@ window.OTP_config = {
         //and add it in index.html after other localizations
         //It will be used automatically when UI is switched to this locale
         datepicker_locale_short: "it",
-        //Currently unused
-        format: "DD.MM.YYYY, HH:mm", //momentjs
+        format: "D MMM LT", //momentjs
         date_format: "DD/MM/YYYY", //momentjs
         time_format: "HH:mm", //momentjs
     },
@@ -104,8 +100,7 @@ window.OTP_config = {
         //and add it in index.html after other localizations
         //It will be used automatically when UI is switched to this locale
         datepicker_locale_short: "sl",
-        //Currently unused
-        format         : "D. MM. YYYY H:mm", //momentjs
+        format         : "D. MMM LT", //momentjs
         date_format    : "DD.MM.YYYY", //momentjs
         time_format    : "H:mm", //momentjs
     },
@@ -128,8 +123,7 @@ window.OTP_config = {
         //and add it in index.html after other localizations
         //It will be used automatically when UI is switched to this locale
         datepicker_locale_short: "ca",
-        //Currently unused
-        format         : "DD M HH:mm", //momentjs
+        format         : "D MMM LT", //momentjs
         date_format    : "DD/MM/YYYY", //momentjs must be same as date_picker format which is by default: mm/dd/yy
         time_format    : "HH:mm", //momentjs
     },
@@ -152,8 +146,7 @@ window.OTP_config = {
         //and add it in index.html after other localizations
         //It will be used automatically when UI is switched to this locale
         datepicker_locale_short: "", //Doesn't use localization
-        //Currently unused
-        format         : "MMM Do YYYY, h:mma", //moment.js
+        format         : "MMM Do h:mma", //moment.js
         date_format    : "MM/DD/YYYY", //momentjs must be same as date_picker format which is by default: mm/dd/yy
         time_format    : "h:mma", //momentjs
     },
